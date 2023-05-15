@@ -1,0 +1,263 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "example1",
+    "dateExported": "2023-03-02T23:21:05.824Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "c7f78f18-9c6d-4693-89ea-6b1b5871a28c",
+            "name": "Product",
+            "containerId": "",
+            "created": "2023-03-02T22:53:24.484Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "f17c787c-7abd-437e-9043-58ab63d13d4a",
+            "name": "Category",
+            "containerId": "",
+            "created": "2023-03-02T22:53:24.485Z",
+            "sortNum": 20000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "7059ad07-099e-4cb3-ae86-c916ed571678",
+            "colId": "bcbe29ec-bc32-4c94-a6b9-7710161a02e9",
+            "containerId": "c7f78f18-9c6d-4693-89ea-6b1b5871a28c",
+            "name": "test",
+            "url": "/product/testProduct",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-03-02T22:53:24.485Z",
+            "modified": "2023-03-02T22:53:24.485Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "f849c13d-5137-4c1e-b2c2-a488ebd0a468",
+            "colId": "bcbe29ec-bc32-4c94-a6b9-7710161a02e9",
+            "containerId": "f17c787c-7abd-437e-9043-58ab63d13d4a",
+            "name": "test",
+            "url": "/category/test",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-03-02T22:53:24.486Z",
+            "modified": "2023-03-02T22:53:24.486Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "1f1c8787-24cf-42e9-9691-6c3d7aaf22d7",
+            "colId": "bcbe29ec-bc32-4c94-a6b9-7710161a02e9",
+            "containerId": "f17c787c-7abd-437e-9043-58ab63d13d4a",
+            "name": "save",
+            "url": "/category/save",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2023-03-02T22:53:24.487Z",
+            "modified": "2023-03-02T23:17:59.606Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Sodas"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "f82e22ae-a86f-479b-883b-4cb7ae71898a",
+            "colId": "bcbe29ec-bc32-4c94-a6b9-7710161a02e9",
+            "containerId": "f17c787c-7abd-437e-9043-58ab63d13d4a",
+            "name": "get Categories",
+            "url": "/category/",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2023-03-02T22:53:24.488Z",
+            "modified": "2023-03-02T22:53:24.488Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "b1178442-e199-4d1a-af24-4eed85cbc81e",
+            "colId": "bcbe29ec-bc32-4c94-a6b9-7710161a02e9",
+            "containerId": "f17c787c-7abd-437e-9043-58ab63d13d4a",
+            "name": "get Category",
+            "url": "/category/6400b71d42d6edb4ce6d498a",
+            "method": "GET",
+            "sortNum": 55000,
+            "created": "2023-03-02T22:53:24.489Z",
+            "modified": "2023-03-02T22:53:24.489Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "7b00fb6d-e5c5-42a3-89ba-4d5cc4de3ee0",
+            "colId": "bcbe29ec-bc32-4c94-a6b9-7710161a02e9",
+            "containerId": "f17c787c-7abd-437e-9043-58ab63d13d4a",
+            "name": "update",
+            "url": "/category/6400b71d42d6edb4ce6d498a",
+            "method": "PUT",
+            "sortNum": 60000,
+            "created": "2023-03-02T22:53:24.490Z",
+            "modified": "2023-03-02T22:53:24.490Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Galleta"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "6b053349-abf3-4122-87d5-0572ebe6aacf",
+            "colId": "bcbe29ec-bc32-4c94-a6b9-7710161a02e9",
+            "containerId": "f17c787c-7abd-437e-9043-58ab63d13d4a",
+            "name": "Delete",
+            "url": "/category/64012e86fe3148e448797545",
+            "method": "DELETE",
+            "sortNum": 80000,
+            "created": "2023-03-02T22:53:24.491Z",
+            "modified": "2023-03-02T23:20:00.781Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "0c39a929-075b-4b42-9e36-6306405d4f57",
+            "colId": "bcbe29ec-bc32-4c94-a6b9-7710161a02e9",
+            "containerId": "c7f78f18-9c6d-4693-89ea-6b1b5871a28c",
+            "name": "Save",
+            "url": "/product/product",
+            "method": "POST",
+            "sortNum": 90000,
+            "created": "2023-03-02T22:53:24.492Z",
+            "modified": "2023-03-02T23:18:56.334Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Coca cola"
+                    },
+                    {
+                        "name": "stock",
+                        "value": "50"
+                    },
+                    {
+                        "name": "sales",
+                        "value": "800"
+                    },
+                    {
+                        "name": "brand",
+                        "value": "GAMMA"
+                    },
+                    {
+                        "name": "category",
+                        "value": "64012ea7fe3148e448797555"
+                    },
+                    {
+                        "name": "price",
+                        "value": "5.50"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "3a58da86-8340-4e12-8c67-51d0592c4c2f",
+            "colId": "bcbe29ec-bc32-4c94-a6b9-7710161a02e9",
+            "containerId": "c7f78f18-9c6d-4693-89ea-6b1b5871a28c",
+            "name": "Get Products",
+            "url": "/product/products",
+            "method": "GET",
+            "sortNum": 100000,
+            "created": "2023-03-02T22:53:24.493Z",
+            "modified": "2023-03-02T22:53:24.493Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "21533846-c4ca-4711-acfb-1b1bb1d88400",
+            "colId": "bcbe29ec-bc32-4c94-a6b9-7710161a02e9",
+            "containerId": "c7f78f18-9c6d-4693-89ea-6b1b5871a28c",
+            "name": "Get Product",
+            "url": "/product/product/6400bd83377ac5bc7af8f626",
+            "method": "GET",
+            "sortNum": 110000,
+            "created": "2023-03-02T22:53:24.494Z",
+            "modified": "2023-03-02T22:53:24.494Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "cf26803e-9ea5-4526-9061-191a08246875",
+            "colId": "bcbe29ec-bc32-4c94-a6b9-7710161a02e9",
+            "containerId": "c7f78f18-9c6d-4693-89ea-6b1b5871a28c",
+            "name": "Update",
+            "url": "/product/product/6400bd83377ac5bc7af8f626",
+            "method": "PUT",
+            "sortNum": 120000,
+            "created": "2023-03-02T22:53:24.495Z",
+            "modified": "2023-03-02T22:53:24.495Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Emperador"
+                    },
+                    {
+                        "name": "category",
+                        "value": "6400bd5f377ac5bc7af8f623"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "0dcfa396-3747-493e-a309-93339c6496d8",
+            "colId": "bcbe29ec-bc32-4c94-a6b9-7710161a02e9",
+            "containerId": "c7f78f18-9c6d-4693-89ea-6b1b5871a28c",
+            "name": "Delete",
+            "url": "/product/product/6400bd83377ac5bc7af8f626",
+            "method": "DELETE",
+            "sortNum": 130000,
+            "created": "2023-03-02T22:53:24.496Z",
+            "modified": "2023-03-02T22:53:24.496Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ],
+    "settings": {
+        "headers": [],
+        "tests": [],
+        "options": {
+            "baseUrl": "localhost:3111"
+        }
+    }
+}
